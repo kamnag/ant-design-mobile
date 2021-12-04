@@ -25,10 +25,10 @@ export type PullToRefreshProps = {
 }
 
 export const defaultProps = {
-  pullingText: '下拉刷新',
-  canReleaseText: '释放立即刷新',
-  refreshingText: '加载中……',
-  completeText: '刷新成功',
+  pullingText: 'Pull down to refresh',
+  canReleaseText: 'Refresh immediately after release',
+  refreshingText: 'Loading……',
+  completeText: 'Refresh successfully',
   completeDelay: 500,
   onRefresh: () => {},
 }
